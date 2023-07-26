@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Task 6.1</title>
+</head>
+
+<body>
+    <div class="rounded-square">
+        <div class="circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="star">
+                <!-- Add your SVG star path here -->
+                <path d="M12 2l2.4 7.3h7.6l-6 4.7 2.4 7.3-6-4.7-6 4.7 2.4-7.3-6-4.7h7.6z" />
+            </svg>
+        </div>
+
+
+        <h1><b>How did we do?</b></h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve
+            our offering!</p>
+        <div class="flex-container">
+            <div id="1" onclick="chooseNumber(1)">1</div>
+            <div id="2" onclick="chooseNumber(2)">2</div>
+            <div id="3" onclick="chooseNumber(3)">3</div>
+            <div id="4" onclick="chooseNumber(4)">4</div>
+            <div id="5" onclick="chooseNumber(5)">5</div>
+        </div>
+        <div class="submit" onclick="submitSelection()">
+            <div>Submit</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

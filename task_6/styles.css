@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.rounded-square {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+h1 {
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+.circle {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.button-container {
+    display: flex;
+}
+
+button {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px 30px;
+    font-size: 13px;
+    background-color: #ffffff;
+    color: #3498db;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button:first-child {
+    margin-left: 50px;
+    /* Increase the left margin for the first button */
+}
+
+button:last-child {
+    margin-right: 30px;
+    /* Increase the right margin for the last button */
+}
+
+p {
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+
+}
+
+
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+button[type="submit"] {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 15px 30px;
+    /* Increase the padding to adjust the clickable area */
+    margin-bottom: 30px;
+}
+
+.submit {
+    /* Styling for the container div */
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #3498db;
+    /* Add padding to create space around the button */
+    margin: 30px auto;
+    /* Horizontally center the container div */
+    text-align: center;
+    width: 400px;
+    height: 50px;
+}
+
+.submit button {
+    /* Styling for the button inside the container div */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: transparent;
+    /* Set the button's background color to transparent */
+    border: 2px solid #3498db;
+    /* Add a border to create the appearance of a button */
+    border-radius: 20px;
+    /* Make the button edges rounded to match the container div */
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
